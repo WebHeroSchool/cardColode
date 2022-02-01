@@ -38,7 +38,7 @@
   transform: translate(0%, 34%) rotate(45deg);
 }
 #simple_one_card {
-  /*background: url("simple_1.png") 1% 1%/ 10% no-repeat; */
+  background: url("simple_1.png") 1% 1%/ 10% no-repeat; 
 }
 .average {
   font: 700 3vw/2.4vw Roboto, arial, helvetica, sans-serif;

@@ -14,7 +14,7 @@
   <h1 class="level">Выберите уровень сложности:</h1>
   <p class="description">Выберите сложность и игра начнется. Чем выше уровень - тем больше будет выборка карт.</p>
   <p class="simple">Простой</p>
-
+    <div id="simple_one_card"></div>
     <div class="simple_two_card"></div>
     <div class="simple_three_card"></div>
   <p class="average">Средний</p>
@@ -29,7 +29,6 @@
   <a class="button-begin" id="button" href="#">Начать игру</a>
   <div class="card_one"></div>
   </div>
-  <div id="simple_one_card"></div>
   <script src="fil.js"></script>
 </body>
 </html>
