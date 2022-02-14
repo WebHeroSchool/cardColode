@@ -1,0 +1,98 @@
+.fon {
+	background: url('img/Background.png') 0% 0%/ 100% no-repeat;
+}
+.wrapper {
+  background: url('img/card_2.svg') 93% 160%/ 26% no-repeat,
+              url('img/card_1.png') 75% 147%/ 20% no-repeat;
+              
+  margin: 10% 0% 0% 6%;
+}
+.level {
+  font: 700 4vw/2.4vw Roboto, arial, helvetica, sans-serif;
+  color: #FFF;
+  margin: 2% 1.2%;
+  letter-spacing: -0.3px;
+}
+.description {
+  font: 400 1vw/1vw Roboto, arial, helvetica, sans-serif;
+  color: #FFF;
+  margin-left: 1%;
+  letter-spacing: 2.5px;
+  margin-bottom: 6%;
+}
+.simple {
+  font: 700 3vw/2.4vw Roboto, arial, helvetica, sans-serif;
+  color: #FFF;
+  margin-left: 5%;
+  letter-spacing: 3px;
+  width: 15%;
+}
+.simple:hover {
+  cursor: pointer;
+}
+.simple:hover::before {
+  display: block;
+  content: "";
+  width: 1.4%;
+  height: 2%;
+  background: #D62B2E;
+  position: absolute;
+  right: 91%;
+  transform: translate(0%, 34%) rotate(45deg);
+}
+#simple_one_card {
+  /*background: url("simple_1.png") 1% 1%/ 10% no-repeat; */
+}
+.average {
+  font: 700 3vw/2.4vw Roboto, arial, helvetica, sans-serif;
+  color: #FFF;
+  margin-left: 5%;
+  letter-spacing: 3px;
+  margin-bottom: 4%;
+  width: 15%;
+}
+.average:hover {
+  cursor: pointer;
+}
+.average:hover:before {
+  display: block;
+  content: "";
+  width: 1.4%;
+  height: 2%;
+  background: #D62B2E;
+  position: absolute;
+  right: 91%;
+  transform: translate(0%, 34%) rotate(45deg);
+}
+.hard {
+  font: 700 3vw/2.4vw Roboto, arial, helvetica, sans-serif;
+  color: #FFF;
+  margin-left: 5%;
+  letter-spacing: 3px;
+  margin-bottom: 12%;
+  width: 15%;
+}
+.hard:hover {
+  cursor: pointer;
+}
+.hard:hover:before {
+  display: block;
+  content: "";
+  width: 1.4%;
+  height: 2%;
+  background: #D62B2E;
+  position: absolute;
+  right: 91%;
+  transform: translate(0%, 34%) rotate(45deg);
+}
+/*.card_one {
+  background-image: 0% 0%/ 20% no-repeat url('img/card_1.png');
+}*/
+.button-begin {
+  font: 400 2.1vw/1vw Roboto, arial, helvetica, sans-serif;
+  color: #FFF;
+  padding: 2% 6.4% 2.1% 7%;
+  text-decoration: none;
+  background-color: red;
+  margin-left: 1.1%;
+}

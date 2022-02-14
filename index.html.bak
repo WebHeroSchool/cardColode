@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>cards with bags</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="fon">
+  <div class="wrapper" id="wrapper">
+  <h1 class="level">Выберите уровень сложности:</h1>
+  <p class="description">Выберите сложность и игра начнется. Чем выше уровень - тем больше будет выборка карт.</p>
+  <p class="simple" id="simple">Простой</p>
+
+    <div class="simple_two_card"></div>
+    <div class="simple_three_card"></div>
+  <p class="average">Средний</p>
+    <div class="average_one_card"></div>
+    <div class="average_two_card"></div>
+    <div class="average_three_card"></div>
+    <div class="average_four_card"></div>
+    <div class="average_five_card"></div>
+    <div class="average_six_card"></div>
+  <p class="hard">Сложный</p>
+    <div class="hard_one_card"></div>
+  <a class="button-begin" id="button" href="#">Начать игру</a>
+  <div class="card_one"></div>
+  </div>
+  <div id="simple_one_card"></div>
+  <script src="fil.js"></script>
+</body>
+</html>
