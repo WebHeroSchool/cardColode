@@ -1,7 +1,10 @@
+.fon {
+	background: url('img/Background.png') 0% 0%/ 100% no-repeat;
+}
 .wrapper {
   background: url('img/card_2.svg') 93% 160%/ 26% no-repeat,
-              url('img/card_1.png') 75% 147%/ 20% no-repeat,
-              url('img/Background.png') 0% 0%/ 100% no-repeat;
+              url('img/card_1.png') 75% 147%/ 20% no-repeat;
+              
   margin: 10% 0% 0% 6%;
 }
 .level {
